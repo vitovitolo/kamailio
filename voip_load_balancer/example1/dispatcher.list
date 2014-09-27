@@ -1,0 +1,14 @@
+# $Id$
+# dispatcher destination sets
+#
+
+# line format
+# setit(int) destination(sip uri) flags(int,optional) priority(int,optional) attributes(str,optional)
+
+# GATEWAYS
+
+1 sip:1.1.1.1:5060  2 0 weight=35
+
+1 sip:2.2.2.2:5060  2 0 weight=65
+
+#1 sip:3.3.3.3:5060 2 0 weight=1
